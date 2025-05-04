@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "items",
+  "info": {
+    "singularName": "item",
+    "pluralName": "items",
+    "displayName": "Item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ItemTitle": {
+      "type": "string"
+    },
+    "itemDescription": {
+      "type": "text"
+    }
+  }
+}
